@@ -81,7 +81,6 @@ graph TD
 
 ### 1. Installation
 ```bash
-git clone https://github.com/yourusername/GBM-Market-Engine.git
 cd GBM-Market-Engine
 pip install -r requirements.txt
 ```
