@@ -1,7 +1,7 @@
-# GBM-Market-Engine
-# GBM-Market-Engine: High-Fidelity Market Simulator
+# GBM-Market-Framework
+# GBM-Market-Framework: High-Fidelity Market Simulator
 
-**GBM-Market-Engine** is a professional-grade, interactive market simulation engine built with Python and Streamlit. It replicates the complex microstructure of a financial exchange, featuring realistic price action driven by stochastic calculus, an organic order book, and TradingView-style high-performance visualizations.
+**GBM-Market-Framework** is a professional-grade, interactive market simulation engine built with Python and Streamlit. It replicates the complex microstructure of a financial exchange, featuring realistic price action driven by stochastic calculus, an organic order book, and TradingView-style high-performance visualizations.
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
