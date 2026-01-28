@@ -23,7 +23,7 @@ This project demonstrates the practical application of stochastic calculus in fi
 
 <div align="center">
 
-![GBM Market Framework User Interface](assets/ui_screenshot.png)
+![GBM Market Framework User Interface](assets/ui_screenshot1.png)
 *Figure 1: GBM Market Framework Trading Interface — Real-time candlestick charts, order book depth, and trade history*
 
 </div>
