@@ -17,14 +17,14 @@
 
 ## 🎯 Project Overview
 
-**GBM Market Framework** is an advanced market microstructure simulation platform that replicates the dynamics of cryptocurrency and equity exchanges with mathematical precision. Built on the foundation of **Geometric Brownian Motion (GBM)** enhanced with **Merton's Jump-Diffusion** model, PriceSim provides researchers and practitioners with a realistic environment for studying price dynamics, market behavior, and trading strategies.
+**GBM Market Framework** is an advanced market microstructure simulation platform that replicates the dynamics of cryptocurrency and equity exchanges with mathematical precision. Built on the foundation of **Geometric Brownian Motion (GBM)** enhanced with **Merton's Jump-Diffusion** model, GBM Market Framework provides researchers and practitioners with a realistic environment for studying price dynamics, market behavior, and trading strategies.
 
 This project demonstrates the practical application of stochastic calculus in financial modeling, combining theoretical rigor with an intuitive, professional-grade user interface.
 
 <div align="center">
 
-![PriceSim User Interface](assets/ui_screenshot.png)
-*Figure 1: PriceSim Trading Interface — Real-time candlestick charts, order book depth, and trade history*
+![GBM Market Framework User Interface](assets/ui_screenshot.png)
+*Figure 1: GBM Market Framework Trading Interface — Real-time candlestick charts, order book depth, and trade history*
 
 </div>
 
@@ -110,7 +110,7 @@ Where **J_t** is a compound Poisson process with intensity λ and normally-distr
 
 ### 4. Dynamic Volatility Adjustment
 
-Real markets exhibit volatility clustering — periods of high volatility tend to persist. PriceSim implements a trend-responsive volatility multiplier:
+Real markets exhibit volatility clustering — periods of high volatility tend to persist. GBM Market Framework implements a trend-responsive volatility multiplier:
 
 $$\sigma_{effective} = \sigma_{base} \times f(\text{trend})$$
 
@@ -137,7 +137,7 @@ Each candlestick encapsulates the price action within a time period through sub-
 
 ### Leverage and Liquidation
 
-PriceSim implements exchange-accurate leverage mechanics with maintenance margin requirements.
+GBM Market Framework implements exchange-accurate leverage mechanics with maintenance margin requirements.
 
 **Liquidation Price Calculation:**
 
@@ -155,7 +155,7 @@ Where **MMR = 0.5%** (Maintenance Margin Rate)
 
 ## 🏗️ System Architecture
 
-PriceSim employs a modular, state-driven architecture optimized for real-time simulation.
+GBM Market Framework employs a modular, state-driven architecture optimized for real-time simulation.
 
 ![Architecture Diagram](assets/08_architecture.png)
 
