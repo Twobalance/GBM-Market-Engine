@@ -180,8 +180,8 @@ PriceSim employs a modular, state-driven architecture optimized for real-time si
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/PriceSim.git
-cd PriceSim
+git clone https://github.com/Twobalance/GBM-Market-Framework.git
+cd GBM-Market-Framework
 
 # Create virtual environment
 python3 -m venv .venv
