@@ -208,6 +208,4 @@ plotly>=5.15.0
 
 
 
-*Master's Portfolio Project | Computational Finance*
-
 </div>
