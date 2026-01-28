@@ -158,32 +158,6 @@ Where **MMR = 0.5%** (Maintenance Margin Rate)
 PriceSim employs a modular, state-driven architecture optimized for real-time simulation.
 
 ![Architecture Diagram](assets/08_architecture.png)
-*Figure 9: High-level system architecture showing component interactions*
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                      PRICESIM ENGINE                            │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌─────────────┐    ┌──────────────┐    ┌─────────────────┐    │
-│  │   Market    │───▶│  Order Book  │───▶│    Trading      │    │
-│  │   Engine    │    │   Engine     │    │    Engine       │    │
-│  │             │    │              │    │                 │    │
-│  │  GBM + Jump │    │  Bid/Ask     │    │  Positions      │    │
-│  │  Diffusion  │    │  Generation  │    │  Management     │    │
-│  └──────┬──────┘    └──────────────┘    └────────┬────────┘    │
-│         │                                        │              │
-│         └───────────┬────────────────────────────┘              │
-│                     ▼                                           │
-│            ┌────────────────┐                                   │
-│            │ Session State  │                                   │
-│            │                │                                   │
-│            │ Price, Volume  │                                   │
-│            │ Positions, OB  │                                   │
-│            └────────────────┘                                   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ### Component Responsibilities
 
