@@ -11,7 +11,7 @@ import uuid
 # ==========================================
 # CONFIGURATION & CONSTANTS
 # ==========================================
-st.set_page_config(layout="wide", page_title="GBM Market Simulator", page_icon=" ")
+st.set_page_config(layout="wide", page_title="GBM Market Framework", page_icon=" ")
 
 INITIAL_BALANCE = 10000.0
 SYMBOL = "XYZ/USDT"
@@ -472,7 +472,7 @@ def main():
     ob_engine = OrderBookEngine()
     
     # --- SIDEBAR ---
-    st.sidebar.title("GBM Market Simulator")
+    st.sidebar.title("GBM Market Framework")
     
     # Settings (Volatility)
     with st.sidebar.expander("⚙️ Market Settings", expanded=True):
