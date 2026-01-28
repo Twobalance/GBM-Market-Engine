@@ -206,47 +206,7 @@ plotly>=5.15.0
 
 ---
 
-## 📖 Documentation
 
-Comprehensive documentation is provided in the following resources:
-
-| Document | Description |
-|----------|-------------|
-| [`PriceSim_Documentation.ipynb`](PriceSim_Documentation.ipynb) | Interactive Jupyter notebook with step-by-step explanations |
-| [`TECHNICAL_MANUAL.md`](TECHNICAL_MANUAL.md) | Detailed API reference and function documentation |
-
----
-
-## 🎓 Academic Applications
-
-This simulation engine is designed for:
-
-- **Financial Engineering Education** — Demonstrating stochastic calculus applications
-- **Algorithmic Trading Research** — Strategy backtesting in controlled environments
-- **Market Microstructure Studies** — Order book dynamics and price discovery analysis
-- **Risk Management Training** — Understanding leverage, margin, and liquidation mechanisms
-- **Monte Carlo Simulations** — Generating realistic price paths for derivative pricing
-
----
-
-## 📚 References
-
-1. Black, F., & Scholes, M. (1973). *The Pricing of Options and Corporate Liabilities*. Journal of Political Economy.
-2. Merton, R. C. (1976). *Option Pricing When Underlying Stock Returns Are Discontinuous*. Journal of Financial Economics.
-3. Hull, J. C. (2018). *Options, Futures, and Other Derivatives* (10th ed.). Pearson.
-4. Glasserman, P. (2003). *Monte Carlo Methods in Financial Engineering*. Springer.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-
-**Developed for academic research in market microstructure and quantitative finance**
 
 *Master's Portfolio Project | Computational Finance*
 
