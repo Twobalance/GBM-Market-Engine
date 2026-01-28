@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📈 PriceSim
+# 📈 GBM Market Framework
 
 ### Real-Time Market Microstructure Simulation Engine
 
@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)]()
 
-*A high-fidelity, interactive market simulation engine for financial markets research*
+
 
 </div>
 
@@ -17,7 +17,7 @@
 
 ## 🎯 Project Overview
 
-**PriceSim** is an advanced market microstructure simulation platform that replicates the dynamics of cryptocurrency and equity exchanges with mathematical precision. Built on the foundation of **Geometric Brownian Motion (GBM)** enhanced with **Merton's Jump-Diffusion** model, PriceSim provides researchers and practitioners with a realistic environment for studying price dynamics, market behavior, and trading strategies.
+**GBM Market Framework** is an advanced market microstructure simulation platform that replicates the dynamics of cryptocurrency and equity exchanges with mathematical precision. Built on the foundation of **Geometric Brownian Motion (GBM)** enhanced with **Merton's Jump-Diffusion** model, PriceSim provides researchers and practitioners with a realistic environment for studying price dynamics, market behavior, and trading strategies.
 
 This project demonstrates the practical application of stochastic calculus in financial modeling, combining theoretical rigor with an intuitive, professional-grade user interface.
 
