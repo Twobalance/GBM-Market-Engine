@@ -36,7 +36,7 @@ This project demonstrates the practical application of stochastic calculus in fi
 |---------|-------------|
 | **Stochastic Price Engine** | GBM with configurable drift (μ) and volatility (σ) parameters |
 | **Jump-Diffusion Model** | Simulates sudden market shocks with Poisson-distributed jumps |
-| **Dynamic Volatility** | Trend-responsive volatility multiplier (0.7x - 2.0x) |
+| **Dynamic Volatility** | Trend-responsive volatility multiplier (0.7x - 10.0x) |
 | **Order Book Synthesis** | Real-time bid/ask depth generation based on market conditions |
 | **Trading Simulation** | Full paper trading with Long/Short positions, leverage (1x-100x), and liquidation mechanics |
 | **Professional UI** | TradingView-inspired charts with moving averages and volume analysis |
