@@ -17,7 +17,7 @@
 
 ## 🎯 Project Overview
 
-**GBM Market Framework** is an advanced market microstructure simulation platform that replicates the dynamics of cryptocurrency and equity exchanges with mathematical precision. Built on the foundation of **Geometric Brownian Motion (GBM)** enhanced with **Merton's Jump-Diffusion** model, GBM Market Framework provides researchers and practitioners with a realistic environment for studying price dynamics, market behavior, and trading strategies.
+**GBM Market Framework** is an advanced market microstructure simulation platform that replicates the dynamics of crypto and equity exchanges with mathematical precision. Built on the foundation of **Geometric Brownian Motion (GBM)** enhanced with **Merton's Jump-Diffusion** model, GBM Market Framework provides researchers and practitioners with a realistic environment for studying price dynamics, market behavior, and trading strategies.
 
 This project demonstrates the practical application of stochastic calculus in financial modeling, combining theoretical rigor with an intuitive, professional-grade user interface.
 
