@@ -66,7 +66,7 @@ Where:
 
 ### Discretized Implementation
 
-For numerical simulation, we apply the Euler-Maruyama discretization:
+For numerical simulation, we apply the Exact Solution (Log-normal step):
 
 $$S_{t+\Delta t} = S_t \cdot \exp\left[\left(\mu - \frac{\sigma^2}{2}\right)\Delta t + \sigma\sqrt{\Delta t}\, Z\right]$$
 
