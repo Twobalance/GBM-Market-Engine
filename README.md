@@ -36,7 +36,7 @@ This project demonstrates the practical application of stochastic calculus in fi
 |---------|-------------|
 | **Stochastic Price Engine** | GBM with configurable drift (μ) and volatility (σ) parameters |
 | **Jump-Diffusion Model** | Simulates sudden market shocks with Poisson-distributed jumps |
-| **Dynamic Volatility** | Trend-responsive volatility multiplier (0.7x - 10.0x) |
+| **Dynamic Volatility** | Trend-responsive volatility multiplier (0.7x - 2.0x) |
 | **Order Book Synthesis** | Real-time bid/ask depth generation based on market conditions |
 | **Trading Simulation** | Full paper trading with Long/Short positions, leverage (1x-100x), and liquidation mechanics |
 | **Professional UI** | TradingView-inspired charts with moving averages and volume analysis |
@@ -114,7 +114,7 @@ Real markets exhibit volatility clustering — periods of high volatility tend t
 
 $$\sigma_{effective} = \sigma_{base} \times f(\text{trend})$$
 
-Where f(trend) ranges from 0.7 (bearish dampening) to 10.0 (bullish amplification).
+Where f(trend) ranges from 0.7 (bearish dampening) to 2.0 (bullish amplification).
 
 ![Dynamic Volatility](assets/04_dynamic_volatility.png)
 *Figure 6: Volatility response function — Uptrends amplify volatility (FOMO effect), downtrends moderate it*
