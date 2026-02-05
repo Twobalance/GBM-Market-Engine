@@ -509,25 +509,6 @@ def main():
             if precise_vol != st.session_state.volatility:
                 st.session_state.volatility = precise_vol
         
-        # Quick presets - use selectbox instead of buttons for compact layout
-        preset = st.selectbox(
-            "Quick Presets",
-            options=["Custom", "Low (0.3)", "Medium (1.0)", "High (3.0)", "Extreme (8.0)"],
-            index=0,
-            label_visibility="collapsed"
-        )
-        if preset == "Low (0.3)":
-            st.session_state.volatility = 0.3
-            st.rerun()
-        elif preset == "Medium (1.0)":
-            st.session_state.volatility = 1.0
-            st.rerun()
-        elif preset == "High (3.0)":
-            st.session_state.volatility = 3.0
-            st.rerun()
-        elif preset == "Extreme (8.0)":
-            st.session_state.volatility = 8.0
-            st.rerun()
         
         col1, col2 = st.columns(2)
         if col1.button("FLASH CRASH 📉"):
