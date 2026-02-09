@@ -72,7 +72,9 @@ $$S_{t+\Delta t} = S_t \cdot \exp\left[\left(\mu - \frac{\sigma^2}{2}\right)\Del
 
 Where **Z ~ N(0,1)** is a standard normal random variable. This ensures log-normally distributed prices and guaranteed positive values.
 
-**Note: We use the exponential function (`exp`) to prevent prices from ever dropping below zero and to ensure the results follow a log-normal distribution.
+Note: We use the exponential function (`exp`) to prevent prices from ever dropping below zero and to ensure the results follow a log-normal distribution.
+
+
 ---
 
 ## 🔬 Simulation Components
