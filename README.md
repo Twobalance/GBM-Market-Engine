@@ -74,6 +74,10 @@ Where **Z ~ N(0,1)** is a standard normal random variable. This ensures log-norm
 
 Note: We use the exponential function (`exp`) to prevent prices from ever dropping below zero and to ensure the results follow a log-normal distribution.
 
+### ⚠️ Important Note on Asset Prices
+This framework uses the standard **Geometric Brownian Motion (GBM)** model, which assumes that asset prices are always positive ($S_t > 0$). 
+
+However, users should be aware that in extreme market shocks, prices can technically go negative. A famous historical example is the **WTI Crude Oil crash on April 20, 2020**, where prices dropped to **-$37.63** due to the COVID-19 pandemic and storage limitations. This model does not account for negative pricing.
 
 ---
 
